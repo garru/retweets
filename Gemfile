@@ -1,3 +1,5 @@
 gem 'sinatra'
 gem 'haml'
 gem 'activerecord'
+gem 'amqp', '0.6.4'
+gem 'twitter'

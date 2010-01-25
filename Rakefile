@@ -1,3 +1,9 @@
+namespace :retweet do
+  task :environment do
+    
+  end
+end
+
 namespace :db do
   desc "Migrate the database"
   task(:migrate => :environment) do
